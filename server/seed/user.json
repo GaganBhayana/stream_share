@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Rohit",
+      "email": "rohit@gmail.com",
+      "password": "$2a$10$y.PfUKJpQ98RmwIRrNNZDuKrZ22nAXl6sJ.aG.kmlZ7KaCqpNJx9C"
+    },
+    {
+      "name": "Sahil",
+      "email": "sahil@gmail.com",
+      "password": "$2a$10$y.PfUKJpQ98RmwIRrNNZDuKrZ22nAXl6sJ.aG.kmlZ7KaCqpNJx9C"
+    },
+    {
+      "name": "Keshav",
+      "email": "keshav@gmail.com",
+      "password": "$2a$10$y.PfUKJpQ98RmwIRrNNZDuKrZ22nAXl6sJ.aG.kmlZ7KaCqpNJx9C"
+    },
+    {
+      "name": "Sujeet",
+      "email": "sujeet@gmail.com",
+      "password": "$2a$10$y.PfUKJpQ98RmwIRrNNZDuKrZ22nAXl6sJ.aG.kmlZ7KaCqpNJx9C"
+    }
+  ]
+}

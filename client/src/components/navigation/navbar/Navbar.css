@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+.Navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 56px;
+  background-color: white;
+  box-shadow: 2px 2px;
+  display: inline-flex;
+  width: 100%;
+  box-shadow: 0px 4px 5px 0px #ccc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 10;
+}
+
+.Left {
+  flex-grow: 2;
+  display: inline-flex;
+  height: 100%;
+  padding: 0 12px;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.Right {
+  flex-grow: 1;
+  display: inline-flex;
+  height: 60%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Logo {
+  align-self: center;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ flex-grow: 1;
+}
+
+.SearchBar {
+  align-self: center;
+  margin-left: 80px;
+  flex-grow: 5;
+  max-width: 350px;
+  width: 80%;
+}
+
+.Icon {
+  align-self: center;
+  font-size: 48px;
+  color: #424242;
+  align-content: center;
+  margin: 0 16px;
+  cursor: pointer;
+}
+
+.DrawerIcon {
+  align-self: center;
+  display: none;
+  font-size: 48px;
+  color: #424242;
+  margin-bottom: 5px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .SearchBar, .Icon{
+    display: none;
+  }
+
+  .DrawerIcon {
+    display: inline-block;
+  }
+
+
+}

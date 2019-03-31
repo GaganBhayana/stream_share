@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "title": "Post 1",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273e"
+    },
+    {
+      "title": "Post 2",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273e"
+    },
+    {
+      "title": "Post 3",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273e"
+    },
+    {
+      "title": "Post 4",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273e"
+    },
+    {
+      "title": "Post 5",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32740"
+    },
+    {
+      "title": "Post 6",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32740"
+    },
+    {
+      "title": "Post 7",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32740"
+    },
+    {
+      "title": "Post 8",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32740"
+    },
+    {
+      "title": "Post 9",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32741"
+    },
+    {
+      "title": "Post 10",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32741"
+    },
+    {
+      "title": "Post 11",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32741"
+    },
+    {
+      "title": "Post 12",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d32741"
+    },
+    {
+      "title": "Post 13",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273f"
+    },
+    {
+      "title": "Post 14",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273f"
+    },
+    {
+      "title": "Post 15",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273f"
+    },
+    {
+      "title": "Post 16",
+      "content": "Some random shit",
+      "owner": "5b3602eff65b2a44b3d3273f"
+    }
+  ]
+}

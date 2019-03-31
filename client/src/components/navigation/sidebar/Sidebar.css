@@ -1,0 +1,85 @@
+.Sidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 4px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 5px 0px #ccc;
+  z-index: 50;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.AvatarContainer {
+  width: 100%;
+  min-height: 100px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 5px 0px #ccc;
+}
+
+.Avatar {
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+  background-size: 80px 80px;
+  cursor: pointer;
+}
+
+.MenuItem {
+  width: 90%;
+  height: 50px;
+  align-self: center;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 16px;
+  margin: 0 auto;
+  box-sizing: border-bo;
+  padding: 16px 16px;
+  margin-bottom: 8px;
+  transition: all .2s;
+}
+
+.MenuItem:hover {
+  box-shadow: 2px 2px 5px 0px #ccc;
+  background-color: #eee;
+  transition: all .2s;
+}
+
+.SearchBar {
+  display: none;
+  width: 80%;
+  margin: 8px auto;
+}
+
+@media (max-width: 600px) {
+  .Sidebar {
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 0px 0px #ccc;
+  }
+
+  .Close {
+    transform: translateX(-250px);
+    transition: all .2s;
+  }
+
+  .Open {
+    transform: translateX(0px);
+    transition: all .2s;
+  }
+
+  .SearchBar {
+    display: inline-block;
+  }
+}

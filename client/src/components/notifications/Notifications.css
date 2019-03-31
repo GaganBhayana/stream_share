@@ -1,0 +1,40 @@
+.Notification {
+  padding: 16px;
+  width: 250px;
+  height: 80px;
+  display: block;
+  margin-top: 8px;
+  color: white;
+}
+
+.NotificationContainer {
+  position: fixed;
+  display: block;
+  left: 32px;
+  bottom: 32px;
+  z-index: 80;
+}
+
+.Danger {
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.Success {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+@media (max-width: 600px) {
+
+  .NotificationContainer {
+    width: 100%;
+    margin: auto;
+    left: 0;
+  }
+
+  .Notification {
+    max-width: 400px;
+    width: 90%;
+    margin: auto;
+    margin-top: 8px;
+  }
+}

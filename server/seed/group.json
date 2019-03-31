@@ -1,0 +1,23 @@
+{
+    "groups": [{
+            "title": "abc",
+            "owner": "5bbafa0ecf04af0f3c6d78db",
+            "preferences": "Netflix,Hotstar"
+        },
+        {
+            "title": "xyz",
+            "owner": "5bbafa0ecf04af0f3c6d78db",
+            "preferences": "Netflix,Hotstar,Hulu"
+        },
+        {
+            "title": "pqr",
+            "owner": "5bbafa0ecf04af0f3c6d78db",
+            "preferences": "Netflix"
+        },
+        {
+            "title": "lmn",
+            "owner": "5bbafa0ecf04af0f3c6d78db",
+            "preferences": "Hulu,HBO,Amazon Prime,sdjvbyufb"
+        }
+    ]
+}
